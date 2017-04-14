@@ -11,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:elevation="@dimen/appBar_elevation"
-
         android:background="@color/primary"
         >
 
@@ -35,12 +34,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <!--<android.support.v4.widget.NestedScrollView-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:clipToPadding="false"-->
-        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
-        <!--&gt;-->
         <android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/swipe_refresh_layout"
             android:layout_width="match_parent"
@@ -57,5 +50,4 @@
                 android:scrollbarStyle="outsideOverlay"
                 />
         </android.support.v4.widget.SwipeRefreshLayout>
-    <!--</android.support.v4.widget.NestedScrollView>-->
 </android.support.design.widget.CoordinatorLayout>
